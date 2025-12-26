@@ -1,0 +1,18 @@
+.billing-toggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.billing-toggle button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #2563eb;
+  background: #fff;
+  cursor: pointer;
+}
+
+.billing-toggle button.active {
+  background: #2563eb;
+  color: #fff;
+}

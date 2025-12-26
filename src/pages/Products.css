@@ -1,0 +1,46 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.product-card {
+  height: 100%;
+  min-height: 100px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Body grows equally */
+.card-body {
+  flex-grow: 1;
+}
+
+.desc {
+  color: #6b7280;
+}
+
+/* Footer sticks to bottom */
+.card-footer {
+  margin-top: auto;
+}
+
+.card-footer h2 {
+  margin: 10px 0;
+}
+
+.card-footer button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
