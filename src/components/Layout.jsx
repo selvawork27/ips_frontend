@@ -11,12 +11,10 @@ const Layout = () => {
         <button className="menu-btn" onClick={() => setOpen(true)}>
           ☰
         </button>
-        <h3>ZAM_TRUE_TECH PAYMENT</h3>
+        <h3>ZAM_TRUE_TECH PAYMENT SYSTEM</h3>
       </header>
-
       <div className="app-layout">
         <Sidebar open={open} onClose={() => setOpen(false)} />
-
         <main className="content">
           <Outlet />
         </main>
